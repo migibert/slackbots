@@ -26,7 +26,7 @@ var bot = controller.spawn({
             var total = response.members.length;
             for (var i = 0; i < total; i++) {
                 var member = response.members[i];
-                if(member.name.indexOf('bot') === -1 && member.name === 'pierre.baillif') { //Just for test purposes
+                if(member.name.indexOf('bot') === -1 && member.name === 'mikael.gibert') { //Just for test purposes
                   fullTeamList.push({name: member.name, id: member.id});
                 }
             }
